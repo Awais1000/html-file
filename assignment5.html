@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Document</title>
     <style>
         nav {
@@ -19,9 +21,8 @@
             color: black;
         }
 
-        #im1 {
-            height: 25;
-            width: 30px;
+        i {
+            font-size: 30px;
         }
 
         #im2 {
@@ -51,6 +52,10 @@
         .in {
             color: white;
             opacity: 0.6;
+        }
+
+        a {
+            font-size: 25px;
         }
 
         p {
@@ -85,20 +90,38 @@
             text-align: center;
             background: #589b66;
         }
+
+        a:hover,
+        i:hover {
+            color: rgb(201, 19, 19);
+        }
     </style>
 </head>
 
 <body>
     <nav>
         <img id="im2" src="images/Screenshot 2021-11-29 134547.png" alt="">
-        <a href="">home</a>
-        <a href="">about us</a>
-        <a href="">blog</a>
-        <a href="">contact us</a>
-        <a href="">pages</a>
-        <a href="">shortcode</a>
+        <a href="">
+            <i class="fas fa-home"></i>
+            Home</a>
+        <a href="">
+            <i class="far fa-address-card"></i>
+            about us</a>
+        <a href="">
+            <i class="fas fa-file-alt"></i>
+            blog</a>
+        <a href="">
+            <i class="fas fa-address-book"></i>
+            contact us</a>
+        <a href="">
+            <i class="fas fa-th"></i>
+            pages</a>
+        <a href="">
+            <i class="far fa-comment-dots"></i>
+            feedback</a>
         <span>
-            <img id="im1" src="images/Screenshot 2021-11-29 134509.png" alt="">
+            <!-- <img  src="images/Screenshot 2021-11-29 134509.png" alt=""> -->
+            <i id="im1" class="fas fa-search"></i>
         </span>
         <button id="b1">get started</button>
     </nav>
