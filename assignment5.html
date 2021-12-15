@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 70px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #im1 {
+            height: 25;
+            width: 30px;
+        }
+
+        #im2 {
+            height: 40px;
+            /* with position: relative property we can move a tag in every direction without affecting its siblling tag */
+            position: relative;
+            left: 25px;
+            width: 90px;
+        }
+
+        #b1 {
+            height: 40px;
+            background: #a1ef28;
+            width: 120px;
+            border-radius: 19px;
+        }
+
+        #container {
+            height: 520px;
+            width: 100%;
+            padding-left: 6%;
+            align-items: center;
+            display: flex;
+            background: linear-gradient(to bottom right, #e66528, rgb(138, 4, 4), black);
+        }
+
+        .in {
+            color: white;
+            opacity: 0.6;
+        }
+
+        p {
+            width: 50%;
+        }
+
+        #b2 {
+            background: #aa3224;
+            width: 8vw;
+            height: 12vh;
+            border-radius: 37px;
+            font-size: 20px;
+            border: 2px solid white;
+        }
+
+        #b2:hover {
+            background: white;
+            color: #aa3224;
+        }
+
+        #endcon {
+
+            height: 60vh;
+            display: flex;
+            background: yellowgreen;
+        }
+
+        .end {
+            height: 50vh;
+            margin-left: 8vw;
+            width: 15vw;
+            text-align: center;
+            background: #589b66;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img id="im2" src="images/Screenshot 2021-11-29 134547.png" alt="">
+        <a href="">home</a>
+        <a href="">about us</a>
+        <a href="">blog</a>
+        <a href="">contact us</a>
+        <a href="">pages</a>
+        <a href="">shortcode</a>
+        <span>
+            <img id="im1" src="images/Screenshot 2021-11-29 134509.png" alt="">
+        </span>
+        <button id="b1">get started</button>
+    </nav>
+    <div id="container">
+        <div id="inner">
+            <h4 class="in">Lorem ipsum dolor</h4>
+            <h1 class="in">Lorem, ipsum.</h1>
+            <p class="in">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit similique omnis facere
+                inventore eos
+                officiis quisquam veritatis iure vitae aspernatur.</p>
+            <button class="in" id="b2">contact us</button>
+        </div>
+    </div>
+    <div id="endcon">
+        <div class="end">
+            <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="end">
+            <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="end">
+            <h2>Lorem, ipsum.</h2>
+        </div>
+        <div class="end">
+            <h2>Lorem, ipsum.</h2>
+        </div>
+    </div>
+</body>
+
+</html>
