@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        i{
+            padding-right: 5px;
+        }
+        nav {
+            background-color: black;
+            border: 2px solid black;
+            height: 50px;
+        }
+
+        ul li {
+            list-style: none;
+            margin-top: 15px;
+            margin-left: 50px;
+            float: left;
+        }
+
+        ul li a {
+            text-decoration: none;
+            margin-top: 10px;
+            color: white;
+        }
+
+        ul li a:hover {
+            color: rgb(240, 62, 62);
+        }
+
+        input {
+            float: right;
+            margin-top: 13px;
+            border-radius: 10px;
+            margin-right: 20px;
+            padding-left: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+
+        #cover {
+            background: linear-gradient(to bottom right, rgb(134, 10, 10), black);
+            display: flex;
+            height: 300px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #cover p,
+        h2 {
+            color: white;
+            opacity: 0.5;
+            width: 700px;
+            padding-top: 10px;
+            text-align: center;
+            /* padding-top: 74px;
+            margin: auto;
+            text-align: center; */
+        }
+
+        #container {
+            display: flex;
+            margin: auto;
+            width: 60%;
+            height: 400px;
+            background-color: rgb(158, 154, 154, 0.6);
+            margin-top: 30px;
+            align-items: center;
+            border-radius: 15px;
+        }
+
+        .inner {
+            width: 230px;
+            height: 250px;
+            border-radius: 8px;
+            background-color: rgb(253, 117, 93);
+            margin: auto;
+        }
+
+        .p2,h3{
+            margin-top: 10px;
+            padding: 0px 8px 0px 15px;
+        }
+
+        #bot {
+            height: 200px;
+            margin-top: 30px;
+            background: linear-gradient(to bottom left, red, rgb(36, 10, 85), rgb(13, 134, 78));
+        }
+
+        #awe {
+            text-align: center;
+            font-size: 45px;
+            color: #f98e8e;
+            opacity: 0.5;
+            padding-top: 91px;
+        }
+
+        #btn1 {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 10px 10px;
+            opacity: 0.5;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+        .btn:hover{
+            color: red;
+            border: 1px solid red;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="">
+                <i class="fas fa-home"></i>
+                home</a></li>
+            <li><a href="">
+                <i class="fas fa-address-book"></i>
+                contact us</a></li>
+            <li><a href="">
+                <i class="fas fa-question-circle"></i>
+                help</a></li>
+            <li><a href="">
+                <i class="far fa-comment-dots"></i>
+                feedback</a></li>
+        </ul>
+        <input type="search" placeholder="search"
+        >
+    </nav>
+    <div id="cover">
+        <h2>Lorem ipsum dolor
+        </h2>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est at pariatur corrupti animi quae ut
+            commodi esse
+            repudiandae. Quaerat mollitia quos labore aspernatur. Incidunt quisquam eos ratione sunt soluta repellendus
+            illum neque at animi!</p>
+        <div id="btn1">
+            <button class="btn">read more</button>
+            <button class="btn">contact us</button>
+        </div>
+    </div>
+    <section id="container">
+        <div class="inner">
+            <h3>Lorem ipsum dolor</h3>
+
+            <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita iusto nostrum aliquam in
+                magni ab.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="inner">
+            <h3>Lorem ipsum dolor</h3>
+
+            <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita iusto nostrum aliquam in
+                magni ab.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+        <div class="inner">
+            <h3>Lorem ipsum dolor</h3>
+            <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita iusto nostrum aliquam in
+                magni ab.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            </p>
+        </div>
+    </section>
+    <section id="bot">
+        <p id="awe">Awesome</p>
+    </section>
+</body>
+
+</html>
+<input id="header_search_query" type="search" name="header_search_query" value="" placeholder="Search icons..." class="input-reset color-inherit input-focus all-animate br-pill ph4 sans-serif header-search-input ba bw1 bg-gray1 b--gray1">
